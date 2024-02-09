@@ -56,13 +56,14 @@ The data provided was added onto RStudio and was combined into one huge dataset 
 - Janitor is a simple Tools for Examining and Cleaning Dirty Data. It is used to remove all empty firlds in our dirty data.
 - Lubridate makes it easier to work with dates and times. Here, it is used to easily pull month, and time for our calculations.
 ![image](https://github.com/oakhila11/Bike_Rides_Project/assets/159274121/2cffdbdf-7b8f-4ec0-b56f-065376997120)
-#### Add Columns for Date, Weekday, Ride Length, Start hour, End hour
-[IMAGE]
-#### Convert Ride Length from Factor to Numeric
-[IMAGE]
+#### Add Columns for Date, Weekday name, Ride Length, Start hour, End hour, Month and Convert Ride Length from Factor to Numeric
+![image](https://github.com/oakhila11/Bike_Rides_Project/assets/159274121/fec59fe9-4a91-40fd-851a-fd82c6239814)
+![image](https://github.com/oakhila11/Bike_Rides_Project/assets/159274121/66ef9bd9-9212-4a02-b1a7-661aa31cad66)
+![image](https://github.com/oakhila11/Bike_Rides_Project/assets/159274121/4538ccb2-eb40-4f0c-9405-a9b8044a19a2)
+![image](https://github.com/oakhila11/Bike_Rides_Project/assets/159274121/53678592-1298-47f9-8b38-7de3c8b0ca0f)
 #### Remove “bad” data
 This removes all the negative values and the extra coloumns </br>
-[IMAGE]
+![image](https://github.com/oakhila11/Bike_Rides_Project/assets/159274121/73ea8760-e6cb-43ec-a20c-bf3612ada2c9)
 #### Inspect the new data frame
 [IMAGE]
 
