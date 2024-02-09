@@ -44,12 +44,17 @@ The data contains the following columns: </br>
 Some information has been classified to protect users' privacy. This specifically means that it is not possible to know if casual passengers reside in the service area or have purchased several single passes, or to link credit card numbers to previous transactions. This causes the inability to determine the number of unique riders the company has.
 #### Combining 12 months data
 The data provided was added onto RStudio and was combined into one huge dataset sent using <b>rbind</b> and was renamed as <b>bike_rides</b> </br>
-[IMAGE]
+![image](https://github.com/oakhila11/Bike_Rides_Project/assets/159274121/b3e606aa-0a28-4e8f-808b-f5711fd7f791)
 
-## PROCESS (Cleaning and Formatting Data)
+## PROCESS 
 - The data provided to us is raw and unclean. In this step the data is cleaned and formatted to make it ready for instant calculations. </br>
 - After any changes or manipulation to the dataset, I always checked the columns and data types of them to ensure the consistency. This ensures integrity of data.
 #### Installing all the libraries
 
-####
+#### Cleaning and Formatting the data
+- The RStudio packages <b>janitor</b> and <b>lubridate</b> are used here.
+- Janitor is a simple Tools for Examining and Cleaning Dirty Data. It is used to remove all empty firlds in our dirty data.
+- Lubridate makes it easier to work with dates and times. Here, it is used to easily pull month, and time for our calculations.
+![image](https://github.com/oakhila11/Bike_Rides_Project/assets/159274121/2cffdbdf-7b8f-4ec0-b56f-065376997120)
+
 
