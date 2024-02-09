@@ -65,7 +65,9 @@ The data provided was added onto RStudio and was combined into one huge dataset 
 This removes all the negative values and the extra coloumns </br>
 ![image](https://github.com/oakhila11/Bike_Rides_Project/assets/159274121/73ea8760-e6cb-43ec-a20c-bf3612ada2c9)
 #### Inspect the new data frame
-[IMAGE]
+![image](https://github.com/oakhila11/Bike_Rides_Project/assets/159274121/050ec85a-577c-4cb5-bea1-8517bfaa313e)
+![image](https://github.com/oakhila11/Bike_Rides_Project/assets/159274121/89ec123b-5afe-4fd3-bc5f-e867ab7929ce)
+
 
 
 
