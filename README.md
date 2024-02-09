@@ -49,8 +49,6 @@ The data provided was added onto RStudio and was combined into one huge dataset 
 ## PROCESS 
 - The data provided to us is raw and unclean. In this step the data is cleaned and formatted to make it ready for instant calculations. </br>
 - After any changes or manipulation to the dataset, I always checked the columns and data types of them to ensure the consistency. This ensures integrity of data.
-#### Installing all the libraries
-
 #### Cleaning and Formatting the data
 - The RStudio packages <b>janitor</b> and <b>lubridate</b> are used here.
 - Janitor is a simple Tools for Examining and Cleaning Dirty Data. It is used to remove all empty firlds in our dirty data.
@@ -67,6 +65,23 @@ This removes all the negative values and the extra coloumns </br>
 #### Inspect the new data frame
 ![image](https://github.com/oakhila11/Bike_Rides_Project/assets/159274121/050ec85a-577c-4cb5-bea1-8517bfaa313e)
 ![image](https://github.com/oakhila11/Bike_Rides_Project/assets/159274121/89ec123b-5afe-4fd3-bc5f-e867ab7929ce)
+![image](https://github.com/oakhila11/Bike_Rides_Project/assets/159274121/995f3648-3a36-47fa-b088-e62def428916)
+#### Preparing the dataset for export
+
+## Analyse
+This is where all the necessary calculations will take place on RStudio and the visualizations that were made on Tableau </br>
+#### Descriptive Analysis
+Summary statistics of the duration of the ride (secs) is shown below </br>
+![image](https://github.com/oakhila11/Bike_Rides_Project/assets/159274121/e524a1f6-217e-4ee4-b570-60631fd54f2f)
+#### Comparison between members and casual riders (Visualisations made on RStudio and Tableau)
+- Number of Casual Riders and Members using Cyclistic </br>
+[IMAGE]
+- Mean, Median, Max and Min riders (Casual vs Members) </br>
+![image](https://github.com/oakhila11/Bike_Rides_Project/assets/159274121/08c3b882-d77b-44d5-a37c-cf5120770ad5)
+- Average start hour for Casual riders and Members </br>
+[IMAGE]
+
+
 
 
 
