@@ -75,18 +75,19 @@ Summary statistics of the duration of the ride (secs) is shown below </br>
 ![image](https://github.com/oakhila11/Bike_Rides_Project/assets/159274121/e524a1f6-217e-4ee4-b570-60631fd54f2f)
 #### Comparison between members and casual riders (Visualisations made on RStudio and Tableau)
 - Number of Casual Riders and Members using Cyclistic </br>
-[IMAGE]
+  ![image](https://github.com/oakhila11/Bike_Rides_Project/assets/159274121/15f7f4f7-ae25-450b-8c19-98b9b3399754)
 - Mean, Median, Max and Min riders (Casual vs Members) </br>
 ![image](https://github.com/oakhila11/Bike_Rides_Project/assets/159274121/08c3b882-d77b-44d5-a37c-cf5120770ad5)
 <b> Observations: </b> We can see that for both the mean and median, casual riders have trips of longer duration than member riders.
 - Average start hour for Casual riders and Members </br>
-[IMAGE]
+  ![image](https://github.com/oakhila11/Bike_Rides_Project/assets/159274121/0f73b2d4-fabc-4fd4-879f-07f0beace5df)
+  <b> Observations : </b> Most riders start around 2pm (both casual and member riders)
 #### Trip duration per rider type sorted by day of the week
 - Average trip duration found on Rstudio
 ![image](https://github.com/oakhila11/Bike_Rides_Project/assets/159274121/adba9b37-0c89-4ad4-bdeb-1b96b8369003)
 ![image](https://github.com/oakhila11/Bike_Rides_Project/assets/159274121/70f25ebc-ccd5-48e0-809b-657892151c37)
 - Trip duration visualised on Tableau
-[IMAGE]
+  ![image](https://github.com/oakhila11/Bike_Rides_Project/assets/159274121/95bf980c-dccf-4316-a4fd-a83b4da6cbe0)
 #### Average duration sorted by rider type, then by weekday
 ![image](https://github.com/oakhila11/Bike_Rides_Project/assets/159274121/b995b86c-7146-4a80-9cd8-f8476174b93f)
 <b> Observations: </b> </br>
@@ -96,9 +97,16 @@ Summary statistics of the duration of the ride (secs) is shown below </br>
 #### Trip Duration through a month
 ![image](https://github.com/oakhila11/Bike_Rides_Project/assets/159274121/f90c632f-983f-4f2b-a90e-ed116b4fd6f4)
 ![image](https://github.com/oakhila11/Bike_Rides_Project/assets/159274121/c1ffe10e-abec-450b-9d43-f25d1bd410ef)
-[IMAGE]
+![image](https://github.com/oakhila11/Bike_Rides_Project/assets/159274121/dcd50ef9-5d44-4af7-98de-97f110efe8c3)
+<b> Observations : </b> Member riders have higher average duration each month than the casual users
 
 ## More Visualisations
+![image](https://github.com/oakhila11/Bike_Rides_Project/assets/159274121/361dad6a-588d-4104-b632-0dfd63f8fe88)
+![image](https://github.com/oakhila11/Bike_Rides_Project/assets/159274121/681998e7-0901-4167-bc9b-82fb452ba2e7)
+<b> Observations : </b> The top 10 start and end stations for casual riders are almost exact, with very few differences. For casual riders, the top three stations—which are mentioned below—have the identical beginning and ending locations.  Offering suggestions for a focused advertising effort to turn casual riders into members could benefit from this. Offering member riders exclusive discounts could be a valuable use of this, but that is outside the purview of the business objective. </br>
+![image](https://github.com/oakhila11/Bike_Rides_Project/assets/159274121/3e39f7f2-495f-483d-baba-fbbadd690511)
+<b> Observations : </b> In 2022 most popular bike type among casual riders is electric bikes and for member riders, it's still classic bikes. However, none of the member riders prefer using the docked bikes
+
 
 
 
