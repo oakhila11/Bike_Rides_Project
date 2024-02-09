@@ -14,4 +14,26 @@ The designated business task is to look into any usage discrepancies between ann
 Essentially, we have to identify the behavior of the annual members and the casual riders and highlight the difference between their usage.
 
 ## PREPARE
-The data used for this project is publically available [here](https://divvy-tripdata.s3.amazonaws.com/index.html) provided by Motivate International, Inc. under [this](https://divvybikes.com/data-license-agreement) license.
+- The data used for this project is publically available [here](https://divvy-tripdata.s3.amazonaws.com/index.html) provided by Motivate International, Inc. under [this](https://divvybikes.com/data-license-agreement) license. </br>
+- The dataset provided is updated monthly. For my project here, I used the data spanning from January 2022 to December 2022 (1 year). </br>
+- Since the company collected their own data as a first party, the credibility is high and it has a very low chance of getting biased. This data is reliable, original, comprehensive, current, and cited, therefore it has ROCCC. </br>
+- Verifing the integrity of data : The dataset I used in this analysis is consistent as column names and data types are not varied. </br>
+#### Data Description
+The data contains the following columns: </br>
+1. ride_id (categorical): Unique number assigned to a ride trip.
+2. rideable_type (categorical): Type of bike used during trip; standard two-wheel bike, reclining bike, hand tricycle, or cargo bike.
+3. started_at (datetime): Start date and time for the trip
+4. ended_at (datetime): End data and time for the trip
+5. start_station_name (categorical): Name of the station where the trip started
+6. start_station_id (categorical): Unique identification code assigned to the start station.
+7. end_station_name (categorical): Name of the station where the trip ended.
+8. end_station_id (categorical): Unique identification code assigned to the end station.
+9. start_lat (numeric): Latitude coordinate of where the trip started.
+10. start_lng (numeric): Longitude coordinate of where the trip started.
+11. end_lat (numeric): Latitude coordinate of where the trip ended.
+12. end_lng (numeric): Longitude coordinate of where the trip ended.
+13. member_casual (categorical): Customer type; “member” = annual member, “casual” = casual rider.
+#### Limitations of the data provided
+Some information has been classified to protect users' privacy. This specifically means that it is not possible to know if casual passengers reside in the service area or have purchased several single passes, or to link credit card numbers to previous transactions. This causes the inability to determine the number of unique riders the company has.
+
+
