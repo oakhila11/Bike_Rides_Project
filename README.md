@@ -80,6 +80,15 @@ Summary statistics of the duration of the ride (secs) is shown below </br>
 ![image](https://github.com/oakhila11/Bike_Rides_Project/assets/159274121/08c3b882-d77b-44d5-a37c-cf5120770ad5)
 - Average start hour for Casual riders and Members </br>
 [IMAGE]
+#### Trip duration per rider type sorted by day of the week
+- Average trip duration found on Rstudio
+![image](https://github.com/oakhila11/Bike_Rides_Project/assets/159274121/adba9b37-0c89-4ad4-bdeb-1b96b8369003)
+![image](https://github.com/oakhila11/Bike_Rides_Project/assets/159274121/70f25ebc-ccd5-48e0-809b-657892151c37)
+- Trip duration visualised on Tableau
+[IMAGE]
+#### Average duration sorted by rider type, then by weekday
+![image](https://github.com/oakhila11/Bike_Rides_Project/assets/159274121/b995b86c-7146-4a80-9cd8-f8476174b93f)
+
 
 
 
