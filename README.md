@@ -1,9 +1,30 @@
 # Case study: How does a bike-share navigate speedy success? </br> (Capstone project of the Google Data Analytics Professional Certificate)
 ## Table of Contents
-## Summary
-Data processing and analyzing will primary occur in RStudio using the R programming language with supplement visualizations done via Tableau.
+1. Introduction </br>
+   1.1 Scenario</br>
+   1.2 About the company</br>
+2. Tools and Techniques Used</br>
+3. ASK</br>
+4. PREPARE</br>
+   4.1 Data Description</br>
+   4.2 Limitations of the data provided</br>
+   4.3 Combining 12 months data</br>
+5. PROCESS</br>
+   5.1 Cleaning and Formatting the data</br>
+   5.2 Add Columns for Date, Weekday name, Ride Length, Start hour, End hour, Month and Convert Ride Length from Factor to Numeric</br>
+   5.3 Remove “bad” data</br>
+   5.4 Inspect the new data frame</br>
+7. ANALYSE</br>
+   6.1 Cleaning and Formatting the data</br>
+   6.2 Comparison between members and casual riders (Visualisations made on RStudio and Tableau)</br>
+   6.3 Trip duration per rider type sorted by day of the week</br>
+   6.4 Average duration sorted by rider type, then by weekday</br>
+   6.5 Trip Duration through a month</br>
+8. More Visualisations</br> 
+9. ACT
 ## Introduction
-This case study is a part of my Google Data Analytics Certification. I work with an imaginary comapny called Cyclistic for this project. With training concentrated on essential analytical abilities (data cleansing, analysis, and visualisation) and technologies (R Programming, Tableau), the programme equips learners for a career in data analytics. I used the 6 basic steps (ASK, PREPARE,PROCESS,ANALYSE,SHARE,ACT) to complete this capstone project.
+This case study is a part of my Google Data Analytics Certification. I work with an imaginary company called Cyclistic for this project. With training concentrated on essential analytical abilities (data cleansing, analysis, and visualisation) and technologies (R Programming, Tableau), the programme equips learners for a career in data analytics. I used the 6 basic steps (ASK, PREPARE,PROCESS,ANALYSE,SHARE,ACT) to complete this capstone project. 
+Data processing and analyzing will primary occur in RStudio using the R programming language with supplement visualizations done via Tableau.
 #### Scenario
 In this scenario, I are a junior data analyst working on the marketing analyst team at Cyclistic, a bike-share company in Chicago. The director of marketing believes the company’s future success depends on maximizing the number of annual memberships. This is why, the team wants to understand how the member and the casual riders of the company use their bikes differently. From these insights, your team will design a new marketing strategy to convert casual riders into annual members. </br>
 All details for this project can be found [here](https://d3c33hcgiwev3.cloudfront.net/33sjlhw5SEKkX5eNNAa-cQ_5ac6ed67e08943078d4fd97e2fdfa5f1_V2-FOR-PDF_C8M2L2R2_Reading_Case-Study-1_-How-does-a-bike-share-navigate-speedy-success_.pdf?Expires=1707609600&Signature=fWwd7AXtRYk5BNBI3gSF5QZl9HmUAjk6LtZnSVCbCi9VDN0~GIb2RFTq5Uz6GQJV0JUAa8D31KXTlNdbmzflGtV6F-MaLJO4fWzPnOpswi9dXtnmM92uqdDssunE1TeIbithkuIZpPFzzV8e4vf~XaWXOSsnqJdNh1zJ4wlUGBI_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
@@ -108,7 +129,12 @@ Summary statistics of the duration of the ride (secs) is shown below </br>
 <b> Observations : </b> In 2022 most popular bike type among casual riders is electric bikes and for member riders, it's still classic bikes. However, none of the member riders prefer using the docked bikes
 
 
-
+## ACT
+<b> Recommendations : </b> </br>
+- By changing the monthly price for the full year, you can introduce a monthly membership subscription. Lower the monthly subscription fee during off-peak hours to entice riders to use the bikes.
+- Raise the price of a single ride or a full-day pass on weekends, throughout the summer and at the busiest stations for casual rides. If not, members may receive a price reduction on casual rides during peak hours and at peak stations. Members may also be granted priority entry during peak hours and at peak stations for casual passengers.
+- Since electric bikes are popular with both members and casual riders, introduce a price cut for electric bike membership subscriptions.
+- Implement a promotional campaign on well-liked stations for casual riders on Saturdays during the busiest season of the summer. Those who would want to become members on the same day should receive an additional discount. Additionally, the company can launch a summertime family or friend plan by offering various discounts upon the addition of a new family member or friend.
 
 
 
